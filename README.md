@@ -1,8 +1,6 @@
 # Add a Blazor AutoComplete Component to a Blazor Server App 
 
-A quick overview on how to create and configure the Syncfusion [Blazor AutoComplete](https://www.syncfusion.com/blazor-components/blazor-autocomplete) in a Blazor Server app using Visual Studio Code. You will learn how to add a simple Blazor AutoComplete to a Blazor Server app. You will also see how to populate it with list data and remote data sources. You will also learn how to highlight the searched text, and how to set a custom height and width for the AutoComplete pop-up.   
- 
-Documentation: https://blazor.syncfusion.com/documentation/autocomplete/getting-started
+A quick overview on how to create and configure the Syncfusion [Blazor AutoComplete](https://www.syncfusion.com/blazor-components/blazor-autocomplete) in a Blazor Server app using Visual Studio Code. You will learn how to add a simple Blazor AutoComplete to a Blazor Server app. You will also see how to populate it with list data and remote data sources. You will also learn how to highlight the searched text, and how to set a custom height and width for the AutoComplete pop-up.
 
 ## Project pre-requisites
 Make sure that you have the compatible versions of Visual Studio 2019 and .NET Core SDK latest version(3.1.2) in your machine before starting to work on this project.
@@ -15,6 +13,8 @@ To run this application, you need to first clone the blazor-auto-complete-gettin
 
 [Documentation](https://blazor.syncfusion.com/documentation/autocomplete/getting-started?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
 
+[Download Free Trial](https://www.syncfusion.com/downloads/blazor-samples?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
+
 [Release History](https://blazor.syncfusion.com/documentation/release-notes/19.4.38?type=all?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
 
 [Online Demos](https://github.com/syncfusion/blazor-samples?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
@@ -22,6 +22,10 @@ To run this application, you need to first clone the blazor-auto-complete-gettin
 [Contact Support](https://www.syncfusion.com/support/directtrac/incidents/newincident/?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
 
 [Suggest a feature or report a bug](https://www.syncfusion.com/feedback/blazor?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
+
+[Community Forums](https://www.syncfusion.com/forums?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
+
+[Knowledge base](https://www.syncfusion.com/kb?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
 
 [Pricing](https://www.syncfusion.com/sales/products/blazor?utm_source=github&utm_medium=listing&utm_campaign=blazor-dropdowns-github-samples)
 
