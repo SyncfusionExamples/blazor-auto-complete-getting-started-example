@@ -1,41 +1,15 @@
 ﻿@page "/"
 
-    <div class="control_wrapper">
-        @*List Data Source code snippet*@
-        <SfAutoComplete TItem="GamesData" TValue="string" DataSource="Games"
-                        Placeholder="Select a game" PopupWidth="250px"
-                        PopupHeight="400px">
-            <AutoCompleteFieldSettings Value="Name">
-            </AutoCompleteFieldSettings>
-        </SfAutoComplete>
-
-        @*Remote Data Source code snippet
-        <SfAutoComplete TItem="OrderData" TValue="string" PopupWidth="250px"
-                        PopupHeight="400px"
-                        Placeholder="Select a customer" Query="DataQuery" Highlight="true">
-            <AutoCompleteFieldSettings Value="CustomerID">
-            </AutoCompleteFieldSettings>
-            <SfDataManager Url="https://ej2services.syncfusion.com/production/web-services/api/Orders"
-                           Adaptor="Syncfusion.Blazor.Adaptors.WebApiAdaptor"
-                           CrossDomain=true>
-            </SfDataManager>
-        </SfAutoComplete>*@
-    </div>
+<div class="control_wrapper">
+    <SfAutoComplete TItem="GamesData" TValue="string" DataSource="Games"
+                    Placeholder="Select a game" PopupWidth="250px"
+                    PopupHeight="400px">
+        <AutoCompleteFieldSettings Value="Name">
+        </AutoCompleteFieldSettings>
+    </SfAutoComplete>
+</div>
 
 @code {
-
-    // Remote Data Source code snippet
-    //public Query DataQuery =  new Query().Select(new List<string> { "CustomerID" }).Take(6).RequiresCount();
-    //public class OrderData
-    //{
-    //    public int OrderID { get; set; }
-    //    public string CustomerID { get; set; }
-    //    public int? EmployeeID { get; set; }
-    //}
-
-
-    // List Data Source code snippet
-
     public class GamesData
     {
         public string Name { get; set; }
